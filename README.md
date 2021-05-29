@@ -1,12 +1,2 @@
-# test
-Diese Datei kann man n Git Hub Bearbeiten
-
-haha
-
-ss
-
-
-
-
-hallo
-noch was_2
+# spring-starter
+Software Design Spring Starter App
