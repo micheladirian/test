@@ -1,0 +1,6 @@
+Name: Pull Request Prüfung
+
+on:
+  pull_request:
+    branches:
+      - main
