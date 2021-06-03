@@ -22,7 +22,7 @@ public class EmployeeTest {
     @Test
     @DisplayName("gleich alt..?")
     void exactAge() {
-//        Employee employee = new Employee("A", 18);
+        Employee employee = new Employee("A", 18);
 //        assertTrue(employee.isOfAge(18), "True => wenn Mitarbeiter/inn gleiches alter");
     }
 
