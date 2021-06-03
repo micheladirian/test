@@ -1,6 +1,18 @@
-Name: Pull Request Prüfung
-
-on:
-  pull_request:
-    branches:
-      - main
+Name : GitHub Actions-Demo
+an : [drücken]
+Berufe :
+  Erkunden-GitHub-Aktionen :
+    läuft auf : ubuntu-latest
+    Schritte :
+      - run : echo "🎉 Der Job wurde automatisch durch ein ${{ github.event_name }} Ereignis ausgelöst."
+      - run : echo "🐧 Dieser Job läuft jetzt auf einem ${{ runner.os }} Server, der von GitHub gehostet wird!"
+      - run : echo "🔎 Der Name deines Branchs ist ${{ github.ref }} und dein Repository ist ${{ github.repository }}."
+      - name : Repository-Code auschecken
+        verwendet : Aktionen/Checkout@v2
+      - run : echo "💡 Das Repository ${{ github.repository }} wurde auf den Runner geklont."
+      - run : echo "🖥️ Der Workflow ist nun bereit, Ihren Code auf dem Runner zu testen."
+      - name : Dateien im Repository auflisten
+        laufen : |
+          ls ${{ github.workspace }}
+      - run : echo "🍏 Der Status dieses Jobs ist ${{ job.status }}."
+© 2021 GitHub, Inc.
