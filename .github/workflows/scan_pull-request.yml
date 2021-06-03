@@ -1,0 +1,24 @@
+Name : Container-Scan
+auf :
+  Zeitplan :
+    - cron : ' 0 2 * * 0 '
+  pull_request :
+    Niederlassungen :
+      - Hauptsache
+Berufe :
+  scannen :
+    läuft auf : ubuntu-latest
+    Schritte :
+      - verwendet : Aktionen/Checkout@v2
+      - verwendet : Aktionen/setup-java@v1
+        mit :
+          Java-Version : 11
+      - Ausführen : ./gradlew build
+        Name : Anwendung erstellen
+      - Lauf : Docker zu bauen. -t ndshfswe.azurecr.io/spring-starter:${{github.sha}}
+        name : Docker-Image erstellen
+      - verwendet : Azure/container-scan@v0
+        Name : Docker-Image scannen
+        mit :
+          Schwere-Schwelle : MITTEL
+          Bild-Name : ndshfswe.azurecr.io/spring-starter: $ {{github.sha}}
