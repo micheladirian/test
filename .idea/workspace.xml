@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc37d590-78d2-48a2-a233-5447de39872e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/dependabot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/scan_pull-request.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/tag_push.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test_pull-request.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requests.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/CustomWebSecurityConfigurerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/StarterApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/employee/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/employee/EmployeesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/logic/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/solder/controller/EmptyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/solder/persistence/EmptyDb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/solder/service/EmptyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/abbts/nds/swe/swdt/starter/solder/solder.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/abbts/nds/swe/swdt/starter/StarterApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/abbts/nds/swe/swdt/starter/employee/EmployeeControllerTestIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/abbts/nds/swe/swdt/starter/logic/EmployeeTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="starter" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="starter" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="starter" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tQcrDS1mlIJjycCo9Cd0ahAPvq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../nds-swe/spring-starter" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Gradle.EmployeeTest">
+    <configuration name="EmployeeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ch.abbts.nds.swe.swdt.starter.Logic.EmployeeTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EmployeeTest.exactAge" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ch.abbts.nds.swe.swdt.starter.Logic.EmployeeTest.exactAge&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EmployeeTest.oldEnough" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ch.abbts.nds.swe.swdt.starter.Logic.EmployeeTest.oldEnough&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EmployeeTest.tooYoung" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ch.abbts.nds.swe.swdt.starter.Logic.EmployeeTest.tooYoung&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="test [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.EmployeeTest" />
+        <item itemvalue="Gradle.EmployeeTest.exactAge" />
+        <item itemvalue="Gradle.test [test]" />
+        <item itemvalue="Gradle.EmployeeTest.tooYoung" />
+        <item itemvalue="Gradle.EmployeeTest.oldEnough" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc37d590-78d2-48a2-a233-5447de39872e" name="Default Changelist" comment="" />
+      <created>1622704951953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622704951953</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2605" y="102" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1622709423409">
+      <screen x="1920" y="-116" width="1920" height="1160" />
+    </state>
+    <state x="2605" y="102" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@1920.-116.1920.1160" timestamp="1622709423409" />
+    <state x="2660" y="218" key="FileChooserDialogImpl" timestamp="1622708989295">
+      <screen x="1920" y="-116" width="1920" height="1160" />
+    </state>
+    <state x="2660" y="218" key="FileChooserDialogImpl/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@1920.-116.1920.1160" timestamp="1622708989295" />
+    <state width="1877" height="343" key="GridCell.Tab.0.bottom" timestamp="1622713040435">
+      <screen x="1920" y="-116" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@1920.-116.1920.1160" timestamp="1622713040435" />
+    <state width="1877" height="343" key="GridCell.Tab.0.center" timestamp="1622713040435">
+      <screen x="1920" y="-116" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="343" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@1920.-116.1920.1160" timestamp="1622713040435" />
+    <state width="1877" height="343" key="GridCell.Tab.0.left" timestamp="1622713040435">
+      <screen x="1920" y="-116" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="343" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@1920.-116.1920.1160" timestamp="1622713040435" />
+    <state width="1877" height="343" key="GridCell.Tab.0.right" timestamp="1622713040435">
+      <screen x="1920" y="-116" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="343" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@1920.-116.1920.1160" timestamp="1622713040435" />
+    <state x="2460" y="198" key="IDE.errors.dialog" timestamp="1622706368573">
+      <screen x="1920" y="-116" width="1920" height="1160" />
+    </state>
+    <state x="2460" y="198" key="IDE.errors.dialog/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@1920.-116.1920.1160" timestamp="1622706368573" />
+    <state x="2360" y="38" key="SettingsEditor" timestamp="1622707557659">
+      <screen x="1920" y="-116" width="1920" height="1160" />
+    </state>
+    <state x="2360" y="38" key="SettingsEditor/0.0.1920.1040/1920.-116.1920.1160/3840.-116.1920.1160@1920.-116.1920.1160" timestamp="1622707557659" />
+  </component>
+</project>
