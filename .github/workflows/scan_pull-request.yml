@@ -1,24 +1,24 @@
-Name : Container-Scan
-auf :
-  Zeitplan :
-    - cron : ' 0 2 * * 0 '
-  pull_request :
-    Niederlassungen :
-      - Hauptsache
-Berufe :
-  scannen :
-    läuft auf : ubuntu-latest
-    Schritte :
-      - verwendet : Aktionen/Checkout@v2
-      - verwendet : Aktionen/setup-java@v1
-        mit :
-          Java-Version : 11
-      - Ausführen : ./gradlew build
-        Name : Anwendung erstellen
-      - Lauf : Docker zu bauen. -t ndshfswe.azurecr.io/spring-starter:${{github.sha}}
-        name : Docker-Image erstellen
-      - verwendet : Azure/container-scan@v0
-        Name : Docker-Image scannen
-        mit :
-          Schwere-Schwelle : MITTEL
-          Bild-Name : ndshfswe.azurecr.io/spring-starter: $ {{github.sha}}
+name: Container Scan
+on:
+  schedule:
+    - cron: '0 2 * * 0'
+  pull_request:
+    branches:
+      - main
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-java@v1
+        with:
+          java-version: 11
+      - run: ./gradlew build
+        name: Build application
+      - run: docker build . -t ndshfswe.azurecr.io/spring-starter:${{ github.sha }}
+        name: Build docker image
+      - uses: Azure/container-scan@v0
+        name: Scan docker image
+        with:
+          severity-threshold: MEDIUM
+          image-name: ndshfswe.azurecr.io/spring-starter:${{ github.sha }}
