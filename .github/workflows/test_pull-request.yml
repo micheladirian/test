@@ -1,18 +1,17 @@
-Name : GitHub Actions-Demo
-an : [drücken]
-Berufe :
-  Erkunden-GitHub-Aktionen :
-    läuft auf : ubuntu-latest
-    Schritte :
-      - run : echo "🎉 Der Job wurde automatisch durch ein ${{ github.event_name }} Ereignis ausgelöst."
-      - run : echo "🐧 Dieser Job läuft jetzt auf einem ${{ runner.os }} Server, der von GitHub gehostet wird!"
-      - run : echo "🔎 Der Name deines Branchs ist ${{ github.ref }} und dein Repository ist ${{ github.repository }}."
-      - name : Repository-Code auschecken
-        verwendet : Aktionen/Checkout@v2
-      - run : echo "💡 Das Repository ${{ github.repository }} wurde auf den Runner geklont."
-      - run : echo "🖥️ Der Workflow ist nun bereit, Ihren Code auf dem Runner zu testen."
-      - name : Dateien im Repository auflisten
-        laufen : |
+name: GitHub Actions Demo
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
+      - name: List files in the repository
+        run: |
           ls ${{ github.workspace }}
-      - run : echo "🍏 Der Status dieses Jobs ist ${{ job.status }}."
-© 2021 GitHub, Inc.
+      - run: echo "🍏 This job's status is ${{ job.status }}."
