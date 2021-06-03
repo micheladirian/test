@@ -14,7 +14,7 @@ public class EmployeeTest {
   @DisplayName("Is too young")
   public void tooYoung() {
     Employee employee = new Employee("A", 12);
-    assertTrue(employee.isOfAge(22), "Too young returns false");
+    assertFalse(employee.isOfAge(22), "Too young returns false");
   }
 
   @Test
