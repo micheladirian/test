@@ -1,6 +1,12 @@
+<<<<<<< Updated upstream
 ...
+=======
+>>>>>>> Stashed changes
 on:
   pull_request:
     branches:
       - main
+<<<<<<< Updated upstream
 ...
+=======
+>>>>>>> Stashed changes
